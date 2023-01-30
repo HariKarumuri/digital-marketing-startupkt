@@ -1,57 +1,155 @@
- :root{
-        --primary: rgb(235,92,0);
-        --primary-blue:rgb(0,52,147);
-        --bg-one:rgb(255, 255, 255);
-        --bg-two:rgb(0,52,147);
-      
-      
-      }
-
-
-body{
-    background: white;
+:root {
+  --primary: rgb(235, 92, 0);
+  --primary-blue: rgb(0, 52, 147);
+  --bg-one: rgb(255, 255, 255);
+  --bg-two: rgb(0, 52, 147);
 }
 
-.bg2{
-    background: var(--primary-blue);
+html{
+  overflow-x: hidden !important;
 }
-header{
-color: white;
+
+body {
+  background: white;
+  overflow-x: hidden !important;
 }
-.submitbtn{
-    background: var(--primary);
-    padding: 0.5rem 1.5rem;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-size: 1.2rem;
+
+
+.bg2 {
+  background: var(--primary-blue);
 }
-.spanclass{
-    color: var(--primary);
-    font-size: 4rem !important;
+header {
+  color: white;
 }
-.form_1{
-    background: rgb(0, 51, 147);
-    color: white;
-    padding: 2rem;
-    border-radius: 10px;
+.hero-container {
+  margin: 1rem 0 !important;
+  padding: 1.2rem;
+  background-image: url(./assests/background2.jpg);
+  background-size: cover;
 }
-ul li{
-    font-size: 1.5rem;
+.hero-container h1 {
+  color: white;
 }
-ul h1{
-    color: var(--primary-blue);
+.submitbtn {
+  background: var(--primary);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
 }
-.contacts{
-    font-weight: 600;
+.spanclass {
+  color: var(--primary);
+
+  text-shadow: rgba(0, 0, 0, 0.644) 1.5px 1.5px 3px;
+  font-size: 3rem !important;
 }
-.clients img{
-    
-    padding: 2rem;
+.form_1 {
+  background: rgba(0, 51, 147, 0.514);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
 }
-.clients i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+ul li {
+  font-size: 1.5rem;
+}
+ul h1 {
+  color: var(--primary-blue);
+}
+.contacts {
+  font-weight: 600;
+}
+.clients img {
+  padding: 2rem;
+}
+.clients i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.clients i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.packages {
+  padding: 3rem;
+  background-color: rgba(117, 165, 255, 0.219);
+}
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table.GeneratedTable {
+  width: 70%;
+}
+
+table.GeneratedTable td {
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 0.5px rgba(85, 85, 85, 0.26) solid;
+}
+
+table.GeneratedTable th {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.fonts {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.ourClient {
+  text-transform: capitalize;
+}
+.ourClient span {
+  color: rgb(0, 51, 147);
+}
+footer {
+  margin: 2rem;
+  padding: 1rem;
+}
+.packages h5 {
+  color: rgb(0, 51, 147);
+}
+.lastsec {
+  background: rgb(0, 51, 147);
+  color: white;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    width: 100vw !important;
+  }
+
+  .Logo{
+    height: 55px !important;
+  }
+  
+  table.GeneratedTable {
+    width: 100%;
+  }
+  table.GeneratedTable td {
+    text-align: center;
+    font-size: 0.75rem;
+    border-bottom: 0.5px rgba(85, 85, 85, 0.26) solid;
+  }
+
+  table.GeneratedTable th {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+  
+}
+@media screen and (max-width: 1240px) {
 }

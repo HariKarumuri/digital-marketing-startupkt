@@ -5,13 +5,13 @@
   --bg-two: rgb(0, 52, 147);
 }
 
-html{
+html, body{
   overflow-x: hidden !important;
+  width: 100%;
 }
 
 body {
   background: white;
-  overflow-x: hidden !important;
 }
 
 
@@ -124,8 +124,10 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  body{
-    width: 100vw !important;
+  
+  .services{
+    overflow-x: hidden !important;
+    width: 98%;
   }
 
   .Logo{
@@ -133,16 +135,16 @@ footer {
   }
   
   table.GeneratedTable {
-    width: 100%;
+    width: 95%;
   }
   table.GeneratedTable td {
-    text-align: center;
+    padding: 1rem 0.1rem;
+    margin: 0%;
     font-size: 0.75rem;
-    border-bottom: 0.5px rgba(85, 85, 85, 0.26) solid;
+    
   }
 
   table.GeneratedTable th {
-    text-align: center;
     font-size: 0.8rem;
   }
 
